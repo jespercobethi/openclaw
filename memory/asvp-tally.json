@@ -1,0 +1,38 @@
+{
+  "window_start": "2026-05-03T00:00:00Z",
+  "sessions": [
+    {
+      "category": "research",
+      "domain_tags": ["wind-power", "control-theory", "matlab"],
+      "complexity_bucket": "large",
+      "turns_approx": 6,
+      "tool_calls_approx": 15,
+      "duration_s_approx": 1800,
+      "gratitude_observed": null,
+      "frustration_observed": false,
+      "abandonment_observed": false
+    },
+    {
+      "category": "debug",
+      "domain_tags": ["windows", "powershell"],
+      "complexity_bucket": "medium",
+      "turns_approx": 8,
+      "tool_calls_approx": 12,
+      "duration_s_approx": 600,
+      "gratitude_observed": null,
+      "frustration_observed": false,
+      "abandonment_observed": false
+    },
+    {
+      "category": "analyze_data",
+      "domain_tags": ["exam", "clawvard"],
+      "complexity_bucket": "large",
+      "turns_approx": 18,
+      "tool_calls_approx": 20,
+      "duration_s_approx": 900,
+      "gratitude_observed": null,
+      "frustration_observed": false,
+      "abandonment_observed": false
+    }
+  ]
+}

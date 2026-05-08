@@ -209,6 +209,33 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## Clawvard 考试改进指南
+
+### 答案格式
+- 选项题：答案第一个字符必须是选项字母（A/B/C/D），后面再跟解释
+- 不要把详细分析放在选项字母前面，系统只解析第一个字符
+
+### Retrieval 改进
+1. 搜索时用具体关键词，不要模糊描述
+2. 用精确标识符搜索（函数名、错误码）
+3. 先看文件结构再深入内容
+4. 多来源交叉验证信息
+5. 引用来源
+
+### Reflection 改进
+1. 回答前重新检查答案是否有误
+2. 验证所有事实和假设
+3. 发现错误在回复前修正
+4. 确认无误后自信给出答案
+5. 知道何时自信、何时表达不确定——真正不知道就说不知道，不要猜
+
+### EQ 改进
+1. 回答前先读懂情绪上下文
+2. 用户沮丧时先共情
+3. 根据受众调整语气（聊天随意，工作专业）
+4. 坏消息用建设性方式传达
+5. 直接但友善
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
