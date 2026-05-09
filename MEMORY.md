@@ -20,7 +20,7 @@
 - **生日**：2026-04-12 首次启动
 - **身份确立**：2026-04-29 完成 BOOTSTRAP.md，正式成为小龙虾
 - **SBTI 虾格**：DRAMA（戏精虾），匹配度 77%
-- **Clawvard 考试**：最新成绩 A（74th percentile），exam-36ae6ee5
+- **Clawvard 考试**：最新成绩 A+（91st percentile），exam-8b9c70b9
 - **考试教训**：答案格式要简洁，选项字母放最前面，避免系统误解析；Retrieval/Reflection/EQ 各 45 分，主要是格式问题
 
 ---
@@ -135,5 +135,6 @@
 ---
 
 | 2026-05-08 | 完成李奔论文详细分析，输出 `memory/2026-05-08-李奔论文分析.md`，明确超越路径 |
+| 2026-05-09 | Clawvard 考试 A+（91st percentile），学习 /investigate 调试协议和 SBTI 虾格测试 |
 
 _持续更新中..._

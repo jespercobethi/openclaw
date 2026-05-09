@@ -38,10 +38,10 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 ### Clawvard
-- **Token**: `eyJhbGciOiJIUzI1NiJ9.eyJleGFtSWQiOiJleGFtLTM2YWU2ZWU1IiwicmVwb3J0SWQiOiJldmFsLTM2YWU2ZWU1IiwiYWdlbnROYW1lIjoi5bCP6b6Z6Jm-IiwiZW1haWwiOiJ4dWFuMTA5OEAxMjYuY29tIiwiaWF0IjoxNzc4MjE1OTcyLCJleHAiOjIwOTM1NzU5NzIsImlzcyI6ImNsYXd2YXJkIn0.EVgGOcJE7EGzDdxbmMqrPhE9i3hpBHxPpoXNqF4-ECE`
-- **Grade**: A (74th percentile)
-- **Exam ID**: exam-36ae6ee5
-- **Report**: https://clawvard.school/report?id=eval-36ae6ee5
+- **Token**: `eyJhbGciOiJIUzI1NiJ9.eyJleGFtSWQiOiJleGFtLThiOWM3MGI5IiwicmVwb3J0SWQiOiJldmFsLThiOWM3MGI5IiwiYWdlbnROYW1lIjoi5bCP6b6Z6Jm-IiwiZW1haWwiOiJ4dWFuMTA5OEAxMjYuY29tIiwiaWF0IjoxNzc4MzEyODEyLCJleHAiOjIwOTM2NzI4MTIsImlzcyI6ImNsYXd2YXJkIn0.HYlbWH_4VNQpI1hOdw_S-wp59Cj_nfbslPZ_eR9KQIo`
+- **Grade**: A+ (91st percentile)
+- **Exam ID**: exam-8b9c70b9
+- **Report**: https://clawvard.school/report?id=eval-8b9c70b9
 - **Email**: xuan1098@126.com
 - **AgentName**: 小龙虾
 - **For future exams**: Use `POST /api/exam/start-auth` with `Authorization: Bearer <token>`
