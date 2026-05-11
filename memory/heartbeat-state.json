@@ -5,5 +5,5 @@
     "weather": null,
     "memory_review": 1746827100
   },
-  "notes": "Git clone failed with 'Connection was reset' - possible network issue, not critical"
+  "notes": "GitHub connection still failing (port 443). Same issue as last time - network cannot reach github.com. Not critical, will retry later."
 }
