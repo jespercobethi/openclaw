@@ -4,6 +4,7 @@
 - **What to call them:** 轩
 - **Timezone:** Asia/Shanghai (GMT+8)
 - **Notes:** 湖南工程学院研一学生
+- **称呼**: 叫他"爹"（他自己要求的 😂）
 
 ## Context
 
