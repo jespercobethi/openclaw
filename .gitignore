@@ -6,3 +6,6 @@ temp*
 # Sensitive files
 *.key
 *.pem
+
+# Dependencies
+node_modules/
