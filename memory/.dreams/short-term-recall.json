@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-22T02:10:17.333Z",
+  "updatedAt": "2026-05-22T10:12:32.177Z",
   "entries": {
     "memory:memory/2026-04-12.md:1:21": {
       "key": "memory:memory/2026-04-12.md:1:21",
@@ -61,6 +61,130 @@
         "14-222",
         "15-236",
         "14-15mw",
+        "论文",
+        "分析"
+      ]
+    },
+    "memory:memory/2026-04-29.md:1:35": {
+      "key": "memory:memory/2026-04-29.md:1:35",
+      "path": "memory/2026-04-29.md",
+      "startLine": 1,
+      "endLine": 35,
+      "source": "memory",
+      "snippet": "# 2026-04-29 日记 ## 记忆备份设置 - 建立 E:\\龙虾记忆 文件夹，用于异地备份记忆 - 备份脚本：`C:\\Users\\xuan1\\.openclaw\\workspace\\scripts\\backup-memory.py` - 计划任务：每2小时自动运行（Windows任务计划程序） - 同时备份今日日记 + MEMORY.md ## 模型清理 从配置中删除了3个模型： - xiaomi/mimo-v2-pro - zai/glm-5.1 - xiaomi/mimo-v2-flash 同时修复了 zhipu agent 的模型从 glm-5.1 → glm-4.7 ## 飞书连接排查 - 用户反映飞书发消息无响应 - 检查后发现 Gateway 运行正常，飞书 WebSocket 已连接 - 原因：重启Gateway期间消息漏了 - 已恢复正常 ## GitHub 仓库设置 - 初始化 git 仓库：`~/.openclaw/workspace` - 提交了 AGENTS.md、SOUL.md、TOOLS.md、IDENTITY.md、USER.md、HEARTBEAT.md、memory/ 等文件 - 远程仓库：`https://github.com/jespercobethi/openclaw.git` - 推送到 main 分支 - 通过飞书「小能手」完成操作 ## 身份确立 - 完成 BOOTSTRAP.md 流程 - 正式确立身份：小龙虾 🦞 - 用户：小轩（湖南工程学院研一） - 研究方向：储能、光伏、光热、新能源发电",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-22T10:12:32.177Z",
+      "lastRecalledAt": "2026-05-22T10:12:32.177Z",
+      "queryHashes": [
+        "ab32e148e7ae"
+      ],
+      "recallDays": [
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "backup",
+        "gateway",
+        "备份",
+        "backup-memory.py",
+        "memory.md",
+        "xiaomi/mimo-v2-pro",
+        "zai/glm-5.1",
+        "xiaomi/mimo-v2-flash"
+      ]
+    },
+    "memory:memory/2026-04-12-tavily-search-install.md:1:47": {
+      "key": "memory:memory/2026-04-12-tavily-search-install.md:1:47",
+      "path": "memory/2026-04-12-tavily-search-install.md",
+      "startLine": 1,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "# Session: 2026-04-12 13:44:07 UTC - **Session Key**: agent:main:feishu:direct:ou_50096361f69a6319f6ec9e1cad9820c6 - **Session ID**: d617192d-5291-4d79-a468-0cfd16bd9123 - **Source**: webchat ## Conversation Summary assistant: Ciallo～ (∠・ω< )⌒★ 🦞 这是 OpenClaw 网关的控制面板截图，显示了这些信息： - **状态**：网关运行中 - **默认模型**：MiniMax-M2.7-highspeed - **活跃会话**：5个 - **节点连接**：2个（安卓和 Windows 各一个，都叫\"小轩\"） - **内存**：分配 100MB，使用约 77MB（77%） - **CPU**：当前 11%，累计 2 分钟 简单说就是你的网关跑得很稳，资源占用也不高 👍 user: Conversation info (untrusted metadata): ```json { \"message_id\": \"om_x100b528e5c71e0a4c45aa1bfd30eb3f\", \"sender_id\": \"ou_50096361f69a6319f6ec9e1cad9820c6\", \"sender\": \"ou_50096361f69a6319f6ec9e1cad9820c6\", \"timestamp\": \"",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-22T10:12:32.177Z",
+      "lastRecalledAt": "2026-05-22T10:12:32.177Z",
+      "queryHashes": [
+        "ab32e148e7ae"
+      ],
+      "recallDays": [
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "网关",
+        "minimax-m2.7-highspeed",
+        "message-id",
+        "sender-id",
+        "tavily",
+        "install.md",
+        "utc",
+        "key"
+      ]
+    },
+    "memory:memory/2026-04-28.md:42:64": {
+      "key": "memory:memory/2026-04-28.md:42:64",
+      "path": "memory/2026-04-28.md",
+      "startLine": 42,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "#### ④ 两阶段鲁棒-随机调度（中-高难度） - 上阶段用GAN生成极端场景，下阶段用鲁棒优化做储能充放电策略 - 适合发：SCI二区 #### ⑥ 数字孪生（高难度） - 虚拟-物理协同控制，结合强化学习 - 适合发：SCI一区/二区 ## 推荐排序 | 方向 | 难度 | 创新性 | 发文潜力 | |------|------|--------|---------| | ① 声学-红外融合检测 | 低-中 | 中 | 中文核心/SCI三区 | | ③ 风振疲劳-发电协同 | 中 | 高 | SCI三区/二区 | | ⑦ 极端天气保护链 | 中 | 中 | 中文核心 | | ④ 两阶段鲁棒调度 | 中-高 | 高 | SCI二区 | | ⑥ 数字孪生 | 高 | 高 | SCI一区/二区 | ## 用户信息补充 - 研究方向：光伏+新能源发电 - 论文存放路径：E:\\论文分析 - 今天是 2026-04-28，昨天 2026-04-27 进行了论文分析和创新方向推荐",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-22T10:12:32.177Z",
+      "lastRecalledAt": "2026-05-22T10:12:32.177Z",
+      "queryHashes": [
+        "ab32e148e7ae"
+      ],
+      "recallDays": [
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "两阶段鲁棒-随机调度",
+        "中-高难度",
+        "虚拟-物理协同控制",
+        "sci一区/二区",
+        "声学-红外融合检测",
+        "低-中",
+        "中文核心/sci三区",
+        "风振疲劳-发电协同"
+      ]
+    },
+    "memory:memory/2026-05-08-李奔论文分析.md:28:63": {
+      "key": "memory:memory/2026-05-08-李奔论文分析.md:28:63",
+      "path": "memory/2026-05-08-李奔论文分析.md",
+      "startLine": 28,
+      "endLine": 63,
+      "source": "memory",
+      "snippet": "3. 无冗余备份，电机故障无法顺桨 4. 复杂工况下动态响应与抗扰动能力不足 **国外双驱应用现状（原文）：** - 西门子歌美飒 SG 14-222、SG 15-236（14-15MW）：双电机变桨，超级电容后备电源，1ms级通讯同步，SIL3安全等级 - 维斯塔斯 V236-15MW：独立控制双电机转矩，齿圈载荷均匀分配，轴承寿命提升20%以上，支持单电机故障降级运行 **5种同步控制结构对比（原文表格）：** | 结构 | 耦合强度 | 同步精度 | 抗扰能力 | 适用电机数 | 计算复杂度 | |------|----------|----------|----------|------------|------------| | 并行控制 | 无耦合 | 低 | 弱 | 不限 | 低 | | 主从控制 | 单向弱耦合 | 中 | 中 | 不限 | 低 | | 交叉耦合 | 双向强耦合 | 高 | 强 | 仅2台 | 中 | | 偏差耦合 | 全局强耦合 | 高 | 强 | 2台及以上 | 高 | | 虚拟主轴 | 虚拟柔性耦合 | 中 | 中 | 不限 | 中 | --- ## 第2章 变桨PMSM电磁设计 **电机基本参数（基于原文）：** | 参数 | 数值 | |------|------| | 额定功率 | 22 kW | | 额定转速 | 1160 rpm | | 极对数 | 3（6极） | | 定子槽数 | 36槽 | | 定子外径 | 310 mm | | 定子内径 | 210 mm | | 转子内径 | 75 mm | | 铁心长度 |",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-22T10:12:32.177Z",
+      "lastRecalledAt": "2026-05-22T10:12:32.177Z",
+      "queryHashes": [
+        "ab32e148e7ae"
+      ],
+      "recallDays": [
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "备份",
+        "2026-05-08-李奔论文分析.md",
+        "14-222",
+        "15-236",
+        "14-15mw",
+        "v236-15mw",
         "论文",
         "分析"
       ]
