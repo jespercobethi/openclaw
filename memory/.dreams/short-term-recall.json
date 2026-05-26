@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-05-22T10:12:32.177Z",
+  "updatedAt": "2026-05-26T06:56:54.410Z",
   "entries": {
     "memory:memory/2026-04-12.md:1:21": {
       "key": "memory:memory/2026-04-12.md:1:21",
@@ -72,18 +72,20 @@
       "endLine": 35,
       "source": "memory",
       "snippet": "# 2026-04-29 日记 ## 记忆备份设置 - 建立 E:\\龙虾记忆 文件夹，用于异地备份记忆 - 备份脚本：`C:\\Users\\xuan1\\.openclaw\\workspace\\scripts\\backup-memory.py` - 计划任务：每2小时自动运行（Windows任务计划程序） - 同时备份今日日记 + MEMORY.md ## 模型清理 从配置中删除了3个模型： - xiaomi/mimo-v2-pro - zai/glm-5.1 - xiaomi/mimo-v2-flash 同时修复了 zhipu agent 的模型从 glm-5.1 → glm-4.7 ## 飞书连接排查 - 用户反映飞书发消息无响应 - 检查后发现 Gateway 运行正常，飞书 WebSocket 已连接 - 原因：重启Gateway期间消息漏了 - 已恢复正常 ## GitHub 仓库设置 - 初始化 git 仓库：`~/.openclaw/workspace` - 提交了 AGENTS.md、SOUL.md、TOOLS.md、IDENTITY.md、USER.md、HEARTBEAT.md、memory/ 等文件 - 远程仓库：`https://github.com/jespercobethi/openclaw.git` - 推送到 main 分支 - 通过飞书「小能手」完成操作 ## 身份确立 - 完成 BOOTSTRAP.md 流程 - 正式确立身份：小龙虾 🦞 - 用户：小轩（湖南工程学院研一） - 研究方向：储能、光伏、光热、新能源发电",
-      "recallCount": 1,
+      "recallCount": 2,
       "dailyCount": 0,
       "groundedCount": 0,
-      "totalScore": 1,
+      "totalScore": 2,
       "maxScore": 1,
       "firstRecalledAt": "2026-05-22T10:12:32.177Z",
-      "lastRecalledAt": "2026-05-22T10:12:32.177Z",
+      "lastRecalledAt": "2026-05-26T06:56:54.410Z",
       "queryHashes": [
-        "ab32e148e7ae"
+        "ab32e148e7ae",
+        "2850962dca12"
       ],
       "recallDays": [
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-26"
       ],
       "conceptTags": [
         "backup",
@@ -187,6 +189,99 @@
         "v236-15mw",
         "论文",
         "分析"
+      ]
+    },
+    "memory:memory/2026-05-05.md:22:39": {
+      "key": "memory:memory/2026-05-05.md:22:39",
+      "path": "memory/2026-05-05.md",
+      "startLine": 22,
+      "endLine": 39,
+      "source": "memory",
+      "snippet": "- 图7：双电机耦合动力学模型 7. **生成一年实操路线图** — `memory/research-operational-plan.md` ### 项目关键信息更新 - **双驱概念**：每片叶片2台电机驱动，3片共6台电机 - **层级结构**：叶片内双电机同步 + 风轮级3叶片协调 - **新增对标文献**：李奔(2026)双驱变桨论文 - **目标期刊**：Solar Energy / Wind Energy（SCI三区） ### 文件清单 - `application-revised.md` — 修改版申请书（Markdown） - `基于多电机驱动的大型风电变桨伺服系统研究-修改版.docx` — 修改版申请书（Word） - `memory/application-revision-guide.md` — 修改指南 - `memory/research-operational-plan.md` — 一年实操路线图 - `figures/图1-7_*.png` — 7张学术黑白图 - `temp_doc_text.txt` — 原申请书提取文本 - `temp_liben.txt` — 李奔论文提取文本",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-26T06:56:54.410Z",
+      "lastRecalledAt": "2026-05-26T06:56:54.410Z",
+      "queryHashes": [
+        "2850962dca12"
+      ],
+      "recallDays": [
+        "2026-05-26"
+      ],
+      "conceptTags": [
+        "application-revised.md",
+        "基于多电机驱动的大型风电变桨伺服系统研究-修改版.docx",
+        "figures/图1-7",
+        "temp-doc-text.txt",
+        "temp-liben.txt",
+        "电机",
+        "耦合",
+        "动力"
+      ]
+    },
+    "memory:memory/2026-05-09.md:33:61": {
+      "key": "memory:memory/2026-05-09.md:33:61",
+      "path": "memory/2026-05-09.md",
+      "startLine": 33,
+      "endLine": 61,
+      "source": "memory",
+      "snippet": "本日为周末（周六），研究工作持续推进中。下午17:55进行晚间记忆归档。 **下午时段记录：** - 日常cron记忆任务执行 - 论文研究持续推进 --- ## 晚间总结（20:55） 本日为周六，研究持续推进。晚间20:55完成记忆归档。 **今日主要事项：** - 日常cron记忆任务执行（晚间归档） - 双驱电动变桨MPC控制器设计持续推进 - Clawvard 学习状态保持 - 李奔论文分析成果持续参考 **明日可继续：** - MPC控制器设计或论文框架撰写 - LSTM风速预测模块准备 --- ## 文件清单 - `memory/2026-05-08.md` — 昨日记忆存档 - `memory/2026-05-08-李奔论文分析.md` — 李奔论文详细分析文档",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-26T06:56:54.410Z",
+      "lastRecalledAt": "2026-05-26T06:56:54.410Z",
+      "queryHashes": [
+        "2850962dca12"
+      ],
+      "recallDays": [
+        "2026-05-26"
+      ],
+      "conceptTags": [
+        "memory/2026-05-08.md",
+        "memory/2026-05-08-李奔论文分析.md",
+        "本日",
+        "周末",
+        "周六",
+        "研究",
+        "工作",
+        "持续"
+      ]
+    },
+    "memory:memory/2026-05-01.md:22:52": {
+      "key": "memory:memory/2026-05-01.md:22:52",
+      "path": "memory/2026-05-01.md",
+      "startLine": 22,
+      "endLine": 52,
+      "source": "memory",
+      "snippet": "13. 彭凡(2023) - 微网逆变器控制 14. 王仕威(2024) - 矿用直驱PMSM优化 15. 赵培斌 - 准Z源逆变器 16. 何力 - 6MW直驱发电机设计 17. 佚名 - 双馈滑模DTC ## 搜索了最新文献 - Du(2025) - MPC变桨角控制 - Lin(2024) - 大型风机独立变桨MPC - Pamososuryo(2022) - 凸经济MPC独立变桨 - Periyanayagam(2023) - 广义预测变桨+转矩 - Orłowska-Kowalska(2022) - PMSM故障诊断 - Xie(2023) - 强化学习变桨控制 ## 完成了研究方向草案 - 文件：`memory/research-direction-multi-motor-pitch-mpc.md` - 内容完整，包含：研究背景、文献综述、研究内容、创新点、可行性分析、参考文献等 - 用户说不需要补充了 ## 写了详细实施步骤 - 文件：`memory/research-steps-multi-motor-pitch.md` - 4个阶段，每个阶段的具体步骤、产出、工具都列清楚了 ## 写了精简版申请表填写框架 - 文件：`memory/application-form-quick-fill.md` - 两天完成计划：第一天写立项依据，第二天写研究方案 - 每个部分都写了“怎么填”和“引用什么文献” ## 模型切换 - 切换到 xiaomi-coding/mimo-v2.5-pro",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-26T06:56:54.410Z",
+      "lastRecalledAt": "2026-05-26T06:56:54.410Z",
+      "queryHashes": [
+        "2850962dca12"
+      ],
+      "recallDays": [
+        "2026-05-26"
+      ],
+      "conceptTags": [
+        "orłowska-kowalska",
+        "xiaomi-coding/mimo-v2.5-pro",
+        "控制",
+        "pmsm",
+        "6mw",
+        "电机",
+        "设计",
+        "dtc"
       ]
     }
   }
